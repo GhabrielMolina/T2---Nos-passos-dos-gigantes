@@ -80,7 +80,7 @@ public class App {
                 int vertexAtualIdx = r * numColunas + c; // Mapeia (r,c) para índice 1D
                 int alturaAtual = getAltura(mapa[r][c]);
 
-                for (int i = 0; i < 8; i++) {
+                for (int i = 0; i < dr.length; i++) {
                     int nr = r + dr[i]; // nova linha (vizinho)
                     int nc = c + dc[i]; // nova coluna (vizinho)
 
