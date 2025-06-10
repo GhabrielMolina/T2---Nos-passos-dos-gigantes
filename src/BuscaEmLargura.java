@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -45,5 +44,9 @@ public class BuscaEmLargura {
     /** Retorna a distância (número de passos) da origem até o vértice v. */
     public int getDistanciaPara(int v) {
         return distancia[v];
+    }
+
+    public int getOrigem() {
+        return origem;
     }
 }
